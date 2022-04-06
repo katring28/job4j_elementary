@@ -3,8 +3,8 @@ package ru.job4j.condition;
 public class Point {
     public static double distance(int x1, int y1, int x2, int y2) {
         double first = Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2);
-        double three = Math.sqrt(first);
-        return three;
+        double two = Math.sqrt(first);
+        return two;
     }
 
     public static void main(String[] args) {
